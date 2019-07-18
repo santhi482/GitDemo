@@ -13,6 +13,7 @@
 		8FDC281922E0527E00314C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDC281822E0527E00314C6A /* Assets.xcassets */; };
 		8FDC281C22E0527E00314C6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDC281A22E0527E00314C6A /* LaunchScreen.storyboard */; };
 		8FDC282722E0527E00314C6A /* GitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC282622E0527E00314C6A /* GitDemoTests.swift */; };
+		8FDC28E222E0A87B00314C6A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC28E122E0A87B00314C6A /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8FDC282222E0527E00314C6A /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDC282622E0527E00314C6A /* GitDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitDemoTests.swift; sourceTree = "<group>"; };
 		8FDC282822E0527E00314C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDC28E122E0A87B00314C6A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				8FDC281822E0527E00314C6A /* Assets.xcassets */,
 				8FDC281A22E0527E00314C6A /* LaunchScreen.storyboard */,
 				8FDC281D22E0527E00314C6A /* Info.plist */,
+				8FDC28E122E0A87B00314C6A /* SecondViewController.swift */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FDC28E222E0A87B00314C6A /* SecondViewController.swift in Sources */,
 				8FDC281422E0527D00314C6A /* ViewController.swift in Sources */,
 				8FDC281222E0527D00314C6A /* AppDelegate.swift in Sources */,
 			);
