@@ -24,17 +24,42 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MII-Zn-joV">
+                                <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="a9P-lL-Yng" kind="show" id="OCl-3u-uHj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="sxN-V6-Hvx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="2nR-3P-puI"/>
+                            <constraint firstItem="MII-Zn-joV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N8E-1D-JUp"/>
                             <constraint firstItem="sxN-V6-Hvx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="TCP-dl-hhO"/>
+                            <constraint firstItem="MII-Zn-joV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jI5-Nh-6Mf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="430" y="80"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="etz-O9-MHb">
+            <objects>
+                <viewController id="a9P-lL-Yng" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L0j-i7-zTR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Pbl-lo-MeI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oJj-9v-ga6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1194" y="93"/>
         </scene>
     </scenes>
 </document>
