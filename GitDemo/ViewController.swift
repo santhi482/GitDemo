@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("hi")
         print("12345")
+        print("committed from checkout version")
         // Do any additional setup after loading the view.
     }
 
